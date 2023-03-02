@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+    color: bisque;
+    text-decoration-line: underline;
+}
+h2{
+    text-align: center;
+    color: beige;
+    text-decoration-line: underline;
+}
+h3{
+    text-align: left;
+    text-decoration-line: underline;
+    color: white;
+}
+h4{
+    color: bisque;
+    text-align: center;
+    text-size-adjust: 20;
+}
+
+.taswira{
+    width: 300px;
+height: auto;
+text-align: center;
+}
+
+.tost{
+    width: 300px;
+height: auto;
+text-align: center;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/R.e7fdbe57d634edef9c49205e9d93a6f3?rik=Og4fkDiZdaBAGQ&pid=ImgRaw&r=0");
+    background-size: cover;
+    width: available;
+    height: available;
+}
+
+.container{
+    width: available;
+    height: available;
+}
+
+.leftpane{
+    width: 25%;
+    min-width: 350px;
+    height: available;
+    min-height: 400px;
+    float: left;
+    border-collapse: collapse;
+}
+
+.middlepane{
+   width: 50%;
+   min-width: 800px;
+   height: available;
+   min-height: 650px;
+   float: left; 
+   
+   border-collapse: collapse;
+}
+
+.rightpane{
+    width: 25%;
+    min-width: 350px;
+    min-height: 400px;
+    height: available;
+    
+    margin-left: 75%;
+  
+    border-collapse: collapse;
+    float: inline-start;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover {
+    background-color: #7f5858;
+  }
+.button{
+    
+        background-color: beige;
+        color: black;
+        padding: 15px 32px;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 50%;
+        cursor: all-scroll;
+      justify-items: center;
+      display: block;
+margin:0 
+}
+
